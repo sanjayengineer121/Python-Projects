@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "This is print statement"
+echo "============================"
+echo "````````````````````````````"
+
+
+echo "for execution chmod +x programm1"
+echo "for running ./programm1"
+
