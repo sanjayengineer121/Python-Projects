@@ -10,8 +10,19 @@ Then your interactions should match the examples given (such as ./my-script.sh b
 Script output (such as "Hello World" below) is displayed at the start of the line.
 
 $ echo '#!/bin/sh' > my-script.sh
+
 $ echo 'echo Hello World' >> my-script.sh
+
 $ chmod 755 my-script.sh
+
 $ ./my-script.sh
+
 Hello World
+
 $
+
+
+
+for execution chmod +x programm1
+
+"for running ./programm1"
