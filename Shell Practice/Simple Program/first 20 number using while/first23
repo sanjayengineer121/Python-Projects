@@ -1,0 +1,8 @@
+#!/bin/bash
+	echo "order is"
+	n=1
+	while [ $n -le 20 ]
+	do
+		echo "order is $n"
+		n=$(( n + 1 ))
+	done
