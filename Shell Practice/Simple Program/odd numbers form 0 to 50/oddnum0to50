@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "odd numbers form 0 to 50"
+	num=1
+	while [ $num -le 50 ]
+	do
+		echo "order is $num"
+		num=$(( num + 2 ))
+	done
