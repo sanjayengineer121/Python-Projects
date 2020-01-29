@@ -1,0 +1,9 @@
+#!/bin/bash
+read -p "enter number" num
+        if [ $(($num % 2)) == 0 ]
+then
+	echo "number $num is even"
+else
+	echo "number $num is odd"
+
+fi
