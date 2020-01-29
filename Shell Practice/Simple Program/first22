@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Using while loop..."
+	x=20
+while [ $x -ge 1 ]
+do
+	echo -n "$x"
+	x=$(( x - 3 ))
+done
